@@ -6,3 +6,10 @@ NativeFormatImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190173
+  packageName: Stereo Portals VR
+  packageVersion: 
+  assetPath: Assets/XR/Settings/OpenXR Editor Settings.asset
+  uploadId: 0
