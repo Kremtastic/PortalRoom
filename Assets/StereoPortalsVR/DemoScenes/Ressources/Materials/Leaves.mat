@@ -239,7 +239,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 0.23415613, g: 0.7735849, b: 0.0693307, a: 1}
-    - _Color: {r: 0.23415613, g: 0.7735849, b: 0.0693307, a: 1}
+    - _Color: {r: 0.23415607, g: 0.7735849, b: 0.06933067, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.2}

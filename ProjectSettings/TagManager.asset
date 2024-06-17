@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - BackgroundCamera
+  - Flame
+  - Projectile
+  - Destroyer
+  - MiniWorldCamera
+  - Water
+  - Whiteboard
   layers:
   - Default
   - TransparentFX
@@ -12,21 +17,6 @@ TagManager:
   - 
   - Water
   - UI
-  - InteractableObjects
-  - Floor
-  - NavMesh
-  - BackgroundImage
-  - DistantHotspot
-  - 
-  - 
-  - Character
-  - CharacterOutline
-  - 
-  - 
-  - 
-  - 
-  - 
-  - ItemRendering
   - 
   - 
   - 
@@ -35,9 +25,24 @@ TagManager:
   - 
   - 
   - 
-  - InteractiveObject
-  - InteractiveOutlined
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Pushable
+  - Character Collider
+  - Character Controller
+  - Teleport
   m_SortingLayers:
   - name: Default
     uniqueID: 0

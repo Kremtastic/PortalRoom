@@ -1,8 +1,15 @@
 fileFormatVersion: 2
-guid: 33a320275b5bdac4eae9697b8a8c34e1
+guid: dff017b56413ac247b98d43310a18e55
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 190173
+  packageName: Stereo Portals VR
+  packageVersion: 
+  assetPath: Assets/XR/Loaders/OculusLoader.asset
+  uploadId: 0

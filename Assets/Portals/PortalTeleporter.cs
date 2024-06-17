@@ -14,6 +14,7 @@ public class PortalTeleporter : MonoBehaviour
     {
         if (playerIsOverlapping)
         {
+            print("Player is overlapping");
             Vector3 portalToPlayer = xrOrigin.position - transform.position;
             float dotProduct = Vector3.Dot(transform.forward, portalToPlayer);
 
@@ -23,8 +24,8 @@ public class PortalTeleporter : MonoBehaviour
 
             // If this is true: The player has moved across the portal
             if (dotProduct < 0f)
+            //if (true)
             {
-                print("PLAYER: Teleported!");
 
                 // Teleport the XR Origin
                 float rotationDiff = -Quaternion.Angle(transform.rotation, receiver.rotation);
@@ -42,7 +43,7 @@ public class PortalTeleporter : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("MainCamera"))
         {
             print("PLAYER: ENTER");
             playerIsOverlapping = true;
@@ -51,7 +52,7 @@ public class PortalTeleporter : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("MainCamera"))
         {
             print("PLAYER: EXIT");
             playerIsOverlapping = false;

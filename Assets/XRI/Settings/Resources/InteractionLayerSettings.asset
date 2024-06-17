@@ -14,13 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - TransparentFX
-  - Ignore Raycast
-  - 
-  - Water
-  - UI
-  - Grab
-  - Socket
   - 
   - 
   - 
@@ -44,4 +37,11 @@ MonoBehaviour:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Socket (Chess)
+  - Gaze
   - Teleport
