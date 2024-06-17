@@ -15067,7 +15067,7 @@ PrefabInstance:
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localAvatarPrefab
       value: 
-      objectReference: {fileID: 3429954672566662910, guid: 767b73bf0e10c4542ad3c1908a147924, type: 3}
+      objectReference: {fileID: 4371745758641135285, guid: 73d133357097d6f4180b84218c5c1f87, type: 3}
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localPlayer.leftHand
       value: 
@@ -43814,13 +43814,13 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 721484176}
   - {fileID: 1894231727}
   - {fileID: 1920812414}
   - {fileID: 2609984114077390469}
   - {fileID: 611330722}
   - {fileID: 493651533}
   - {fileID: 109970599}
-  - {fileID: 721484176}
   - {fileID: 81574727}
   - {fileID: 1804041589}
   - {fileID: 1663483726}
