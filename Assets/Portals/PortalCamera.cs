@@ -28,3 +28,4 @@ public class PortalCamera : MonoBehaviour
         transform.rotation = Quaternion.LookRotation(newCameraDirection, Vector3.up);
     }
 }
+
