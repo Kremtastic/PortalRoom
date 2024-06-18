@@ -922,7 +922,7 @@ PrefabInstance:
     - target: {fileID: -4305906297420296222, guid: c4346f6adc8648f4e90f9dee649bc0f3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: cfe78632676854941afa9ad38c919226, type: 2}
+      objectReference: {fileID: 2100000, guid: 3c55be39070c410438581e51f5f54125, type: 2}
     - target: {fileID: 919132149155446097, guid: c4346f6adc8648f4e90f9dee649bc0f3, type: 3}
       propertyPath: m_Name
       value: avatarTestWayDown
