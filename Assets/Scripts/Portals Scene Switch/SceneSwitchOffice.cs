@@ -7,6 +7,7 @@ public class SceneSwitchOffice : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Office Space"); 
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "MainCamera")
+            SceneManager.LoadScene("Office Space"); 
     }
 }

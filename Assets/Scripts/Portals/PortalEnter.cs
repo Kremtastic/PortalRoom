@@ -9,6 +9,7 @@ public class PortalEnter : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(_sceneName);
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "MainCamera")
+            SceneManager.LoadScene(_sceneName);
     }
 }

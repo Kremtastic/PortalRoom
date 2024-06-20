@@ -15,7 +15,7 @@ public class KyleWave : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("Close enough");
-        animator.SetTrigger("wave");
+        if (other.gameObject.tag == "Player")
+            animator.SetTrigger("wave");
     }
 }

@@ -7,6 +7,7 @@ public class SceneSwitchSpaceStation : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("SpaceStation"); 
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "MainCamera")
+            SceneManager.LoadScene("SpaceStation"); 
     }
 }

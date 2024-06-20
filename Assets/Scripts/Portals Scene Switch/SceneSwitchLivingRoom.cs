@@ -7,6 +7,7 @@ public class SceneSwitchLivingRoom : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Living Room");
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "MainCamera")
+            SceneManager.LoadScene("Living Room");
     }
 }
