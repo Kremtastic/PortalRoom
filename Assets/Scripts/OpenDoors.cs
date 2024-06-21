@@ -34,9 +34,8 @@ public class OpenDoor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!hasOpened)
+        if (!hasOpened || other.gameObject.tag == "Player" || other.gameObject.tag == "MainCamera")
         {
-            Debug.Log("Player hit");
             isOpening = true;
             hasOpened = true; // Set the flag to true to prevent re-triggering
         }

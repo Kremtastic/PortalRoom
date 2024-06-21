@@ -15,7 +15,7 @@ public class KyleWave : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "MainCamera")
             animator.SetTrigger("wave");
     }
 }
