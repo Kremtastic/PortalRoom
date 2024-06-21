@@ -4250,7 +4250,7 @@ PrefabInstance:
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localAvatarPrefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4371745758641135285, guid: cc3d32dfc327403418accdf4dfd03ed7, type: 3}
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localPlayer.leftHand
       value: 
@@ -8460,7 +8460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437044699}
   - component: {fileID: 1437044698}
-  - component: {fileID: 1437044697}
+  - component: {fileID: 1437044700}
   m_Layer: 0
   m_Name: Portal-to-SpaceStation
   m_TagString: Untagged
@@ -8468,18 +8468,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1437044697
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437044696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe7e2e3bf12b0c440ab2f452f1d1e089, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &1437044698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8517,6 +8505,19 @@ Transform:
   - {fileID: 2010289936}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1437044700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1437044696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d40232fb2233f40b20ccd228476a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sceneName: SpaceStation (new spawn)
 --- !u!4 &1450507315 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8059801596075752103, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
@@ -12156,7 +12157,8 @@ PrefabInstance:
       value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8047140479014348776, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8650654345800171482, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
       insertIndex: -1

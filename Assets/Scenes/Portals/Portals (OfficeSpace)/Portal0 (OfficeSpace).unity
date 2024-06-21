@@ -1616,7 +1616,7 @@ GameObject:
   m_Component:
   - component: {fileID: 312472815}
   - component: {fileID: 312472814}
-  - component: {fileID: 312472813}
+  - component: {fileID: 312472816}
   m_Layer: 0
   m_Name: Portal-to-Office
   m_TagString: Untagged
@@ -1624,18 +1624,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &312472813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 312472812}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b9e433589bb7394dad36a11bcab912f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &312472814
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1673,6 +1661,19 @@ Transform:
   - {fileID: 1752765683}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &312472816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312472812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d40232fb2233f40b20ccd228476a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sceneName: Office Space
 --- !u!1001 &313524764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4402,7 +4403,7 @@ PrefabInstance:
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localAvatarPrefab
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4371745758641135285, guid: cc3d32dfc327403418accdf4dfd03ed7, type: 3}
     - target: {fileID: 114568985850100520, guid: fca9d4afb3743274e8f7da14019d7e0b, type: 3}
       propertyPath: _localPlayer.leftHand
       value: 
@@ -12160,7 +12161,8 @@ PrefabInstance:
       value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8047140479014348776, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8650654345800171482, guid: 4e660da2419d1614198b2c073ddf863d, type: 3}
       insertIndex: -1
