@@ -7,3 +7,5 @@
 
 ### *Using the VR headset (apk)*:
 * #### Hopefully it runs perfectly :)
+
+## APK link: https://drive.google.com/file/d/1qH_5hzYaH6VHKOlYvyySUBctLNAa2opO/view
